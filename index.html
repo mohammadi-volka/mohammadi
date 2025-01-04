@@ -1,15 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa dir"ltr">
 <head>
+    <link rel="icon" type="image/png" href="img/Artboard 1.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+       *{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: vazir;
+    text-align: center;
+    margin: auto;
+}
+.icon{300px
+    margin-top: 56px;
+}
+#box-user{
+    width: 300px;
+    height: 42px;
+    border-radius: 13px;
+}
+h3{
+    font-size: 20px;
+    margin: 5px 5px;
+}
+.number{
+    margin: 15px 52px;
+    width: 300px;
+    height: 38px;
+    border-radius: 8px
+}
+.button{
+    
+    outline: none;
+    border: none;
+    background-color: rgb(108, 243, 142);
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 300px;
+}
+ 
+    </style>
 </head>
 <body>
-    <div>
-        <h2>نصب ویندور</h2>
-        <p>نصب ویندور به صورت تخصصی و تضمینی و رفع مشکل به صورت تضمینی </p>
-    </div>
+    <img class="icon" src="https://web.shad.ir/assets/icons/icon-192x192.png" alt=" پیام رسان شاد ">
+    <h3>ورود</h3>
+    <h5>لطفا کشور خود را انتخاب کنید و شماره همراه خود را به صورت کامل وارد کنید.</h5>
+    <br>
+    <select name="box-user" id="box-user">
+        <option value="ایران">ایران</option>
+    </select>
+    <br>
+    <input type="number" name="p" class="number" placeholder="شماره همراه">
+    <br>
+    <input class="button" type="submit" value="login">
 </body>
 </html>
